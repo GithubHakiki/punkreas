@@ -379,6 +379,7 @@ img.logo-img:focus {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     align-items: center;
+    position: relative;
 }
 
 .testimonial-container {
@@ -387,6 +388,9 @@ img.logo-img:focus {
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
     position: relative;
+
+    max-height: 300px; /* maksimal tinggi container */
+    overflow-y: auto;  /* scroll vertikal kalau isinya melebihi max-height */
 }
 
 .testimonial-quote {
