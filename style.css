@@ -771,7 +771,6 @@ img.logo-img:focus {
     .edu-img-m {
         width: 360px;
         height: auto;
-        filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
     }
 
     .categories-grid {
