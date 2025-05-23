@@ -803,10 +803,23 @@ img.logo-img:focus {
     .logo-lineup img {
         height: 40px;
     }
+
     .footer-content {
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
+
+        display: flex;
+        flex-direction: column; /* anak-anak nyusun vertikal */
+        justify-content: center; /* vertical centering */
+        align-items: center; /* horizontal centering */
+    }
+
+    .footer-logo, .footer-motto, .footer-tagline {
+        text-align: center; /* biar teks juga rata tengah */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-nav {
