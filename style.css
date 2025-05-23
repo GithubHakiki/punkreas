@@ -190,6 +190,10 @@ img.logo-img:focus {
     filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
 }
 
+.hero-image-m {
+    display: none;
+}
+
 /* Category Section */
 .category-section {
     padding: 100px 0;
@@ -751,13 +755,24 @@ img.logo-img:focus {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start; /* Biar rata kiri */
-        text-align: left;
+        text-align: center;
     }
 
     .hero-image {
-  display: none;
-}
+        display: none;
+    }
+
+    .hero-image-m {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .edu-img-m {
+        width: 360px;
+        height: auto;
+        filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
+    }
 
     .categories-grid {
         grid-template-columns: 1fr;
@@ -818,6 +833,9 @@ img.logo-img:focus {
         padding: 0 15px;
     }
 
+    .copy-santai{
+        display: none;
+    }
     .hero {
         padding: 40px 0 60px;
     }
